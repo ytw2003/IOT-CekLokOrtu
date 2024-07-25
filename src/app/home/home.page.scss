@@ -1,27 +1,30 @@
-#container {
+.toolbar-title {
   text-align: center;
+  width: 100%;
+}
 
+#mapContainer {
+  position: relative;
+  height: 90%;
+}
+
+#mapId {
+  height: 100%;
+  width: 100%;
+}
+
+.map-button {
   position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  bottom: 16px; 
+  right: 16px;  
+  z-index: 1000; 
+  --background: rgba(255, 255, 255, 0.7); 
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+ion-icon {
+  font-size: 24px;
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
+.location-button {
+  margin-top: 16px;
 }
