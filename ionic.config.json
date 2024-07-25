@@ -1,0 +1,7 @@
+{
+  "name": "CekLokOrtu",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
